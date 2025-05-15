@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoover Police Department Victim Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f5;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #f4d6cc;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      height: 60px;
+    }
+    .quick-exit {
+      background-color: #ff9999;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .section-link {
+      display: block;
+      background-color: #ffe6e1;
+      padding: 1rem;
+      margin: 1rem auto;
+      width: 80%;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: #333;
+    }
+    .section-link:hover {
+      background-color: #ffd6cc;
+    }
+  </style>
+  <script>
+    function quickExit() {
+      window.location.href = "https://www.google.com";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <a href="https://www.hooverpd.com" target="_blank">
+      <img src="hoover_logo_left.png" alt="Hoover PD Logo" class="logo" />
+    </a>
+    <button class="quick-exit" onclick="quickExit()">Quick Exit</button>
+    <a href="https://www.hooverpd.com" target="_blank">
+      <img src="hoover_logo_right.png" alt="Community Logo" class="logo" />
+    </a>
+  </header>
+
+  <main>
+    <a href="jefferson.html" class="section-link">Jefferson County</a>
+    <a href="shelby.html" class="section-link">Shelby County</a>
+    <a href="spanish.html" class="section-link">Español</a>
+  </main>
+</body>
+</html>
